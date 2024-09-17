@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+
+    <!-- Font AWesome -->
+
+    <head>
+      <!-- Font Awesome CDN Link -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      />
+      <!-- css link -->
+      <link rel="stylesheet" href="/src/style.css" />
+    </head>
+  </head>
+  <body>
+    <header class="flex flex-col items-center md:flex-row">
+      <!-- header left -->
+      <div class="p-3 md:w-1/2 md:pl-10">
+        <a class="p-2" href="/src/index.html">About</a>
+        <a class="p-2" href="/img/">Doctor</a>
+        <a class="p-2" href="#">Contact</a>
+        <a class="p-2" href="#">FAQ</a>
+      </div>
+
+      <!-- header right -->
+      <div class="flex font-serif md:w-1/2 md:justify-end md:pr-20">
+        <div class="pr-4">
+          <i class="fas fa-phone text-orange-400"></i>
+          <span>+880 1234 56789</span>
+        </div>
+        <div class="pl-4">
+          <i class="fas fa-envelope text-orange-400"></i>
+          <span><a href="@">support@yourmail.com</a></span>
+        </div>
+      </div>
+    </header>
+    <hr />
+    <main>
+      <!-- Navigation -->
+      <section class="flex pt-5">
+        <div class="pl-3">
+          <a class="" href="#">
+            <img src="/img/logo.png" alt="" />
+          </a>
+        </div>
+        <div
+          class="pt-2 text-center w-2/3 font-semibold justify-end items-center hidden md:block"
+        >
+          <a class="pr-12" href="/src/index.html">Home </a>
+          <a class="pr-12" href="/img/">Doctor</a>
+          <a class="pr-12" href="#">Services</a>
+          <a class="pr-12" href="#">Pages</a>
+          <a class="pr-12" href="#">Blogs</a>
+          <a class="pr-16" href="#">Contact Us </a>
+        </div>
+        <div class="justify-end hidden lg:flex">
+          <button class="px-4 py-2 bg-blue-500 rounded-sm">
+            Book Apoinment
+          </button>
+        </div>
+        <div class="w-7/12 flex justify-end items-center md:hidden">
+          <i class="fa fa-bars text-2xl"> </i>
+        </div>
+      </section>
+
+      <!-- swiper slide -->
+      <section class="relative">
+        <div class="slide1 h-96 relative">
+          <div class="absolute top-1/4 left-10">
+            <h1 class="text-2xl font-semibold">
+              We Provide Medical Services <br />
+              That You can Trust !
+            </h1>
+            <p class="text-xl mt-3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, ex?
+            </p>
+
+            <div class="flex mt-4">
+              <button class="bg-blue-600 px-4 py-2 rounded-md">
+                Get Appointment
+              </button>
+              <button class="bg-black text-white px-3 py-2 rounded-md ml-3">
+                Learn More..
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute top-36 left-5 flex justify-between w-11/12">
+          <button
+            class="text-3xl bg-blue-500 h-10 flex justify-center align-middle rounded-md"
+          >
+            <
+          </button>
+          <button
+            class="text-3xl bg-blue-500 h-10 flex justify-center align-middle rounded-md"
+          >
+            >
+          </button>
+        </div>
+      </section>
+
+      <!-- selide bottom card -->
+
+      <section class="card md:flex md:flex-row justify-between">
+        <div
+          class="w-[400px] ml-12 mt-3 h-[240px] bg-blue-600 rounded-md text-white"
+        >
+          <div class="pl-7 pt-7">
+            <p>Lorem Amet</p>
+
+            <h1 class="pt-4">Emergency cases</h1>
+            <p class="pt-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              animi?
+            </p>
+
+            <a class="" href="#"
+              ><button class="pt-5">
+                Learn More <i class="fa fa-long-arrow-right"></i></button
+            ></a>
+          </div>
+        </div>
+
+        <div
+          class="mt-4 w-[400px] ml-12 h-[240px] bg-blue-600 rounded-md text-white"
+        >
+          <div class="pl-7 pt-7">
+            <p>Lorem Amet</p>
+
+            <h1 class="pt-4">Emergency cases</h1>
+            <p class="pt-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+              animi?
+            </p>
+
+            <a class="" href="#"
+              ><button class="pt-5">
+                Learn More <i class="fa fa-long-arrow-right"></i></button
+            ></a>
+          </div>
+        </div>
+
+        <div
+          class="mt-5 w-[400px] ml-12 mt-3h-[240px] bg-blue-600 rounded-md text-white"
+        >
+          <div class="flex justify-center">
+            <div class="pl-7 pt-7 w-9/12">
+              <p>Lorem Amet</p>
+
+              <h1 class="pt-4">Emergency cases</h1>
+              <p class="pt-5">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquid, animi?
+              </p>
+
+              <a class="pt-10" href="#"
+                ><button class="pt-5">
+                  Learn More <i class="fa fa-long-arrow-right"></i></button
+              ></a>
+            </div>
+            <div class="flex-col mt-14">
+              <p>8.00-20.00</p>
+              <p>9.00-18.00</p>
+              <p>9.00-15.00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feautes-seccttion -->
+      <section class="Feautes-seccttion">
+        <div class="top">
+          <div class="flex flex-col justify-center items-center">
+            <h1 class="text-2xl">
+              We Are Always Ready to Help You & <br />
+              Your Family
+            </h1>
+            <img class="w-20" src="/img/section-img.png" alt="" />
+            <p class="w-10/12 md:w-1/2">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit praesent
+              aliquet. pretiumts
+            </p>
+          </div>
+        </div>
+
+        <div class="bottom md:flex md:flex-row">
+          <div class="1">
+            <div class="flex flex-col items-center">
+              <div
+                class="w-20 h-20 text-white rounded-full bg-blue-500 flex items-center justify-center"
+              >
+                <i class="fas fa-ambulance"></i>
+              </div>
+              <h1 class="text-2xl font-extrabold">Emergency Help</h1>
+              <p class="w-10/12">
+                Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
+                vulputate.
+              </p>
+            </div>
+          </div>
+
+          <div class="2">
+            <div class="flex flex-col items-center">
+              <div
+                class="w-20 h-20 rounded-full bg-blue-500 flex items-center justify-center"
+              >
+                <img class="w-10 h-9" src="/img/madical-img.jpg" alt="" />
+              </div>
+              <h1 class="text-2xl font-extrabold">Enriched Pharmecy</h1>
+              <p class="w-10/12">
+                Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
+                vulputate.
+              </p>
+            </div>
+          </div>
+
+          <div class="3">
+            <div class="flex flex-col items-center">
+              <div
+                class="w-20 h-20 text-white rounded-full bg-blue-500 flex items-center justify-center"
+              >
+                <i class="fa-solid fa-stethoscope"></i>
+              </div>
+              <h1 class="text-2xl font-extrabold">Medical Treatment</h1>
+              <p class="w-10/12">
+                Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
+                vulputate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- div  -->
+      <div
+        class="div-card bg-blue-500 bg-opacity-50 md:flex md:flex-row md:justify-evenly"
+      >
+        <div class="flex-col flex items-center">
+          <div
+            class="w-20 h-20 mt-5 text-white rounded-full bg-blue-500 flex items-center justify-center"
+          >
+            <i class="fa-sharp fa-solid fa-house-chimney"></i>
+          </div>
+          <span>3468</span>
+          <span>Hospital Rooms</span>
+        </div>
+
+        <div class="flex-col flex items-center">
+          <div
+            class="w-20 h-20 mt-5 text-white rounded-full bg-blue-500 flex items-center justify-center"
+          >
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <span>3468</span>
+          <span>Hospital Rooms</span>
+        </div>
+
+        <div class="flex-col flex items-center">
+          <div
+            class="w-20 h-20 mt-5 text-white rounded-full bg-blue-500 flex items-center justify-center"
+          >
+            <i class="fa-regular fa-face-smile"></i>
+          </div>
+          <span>3468</span>
+          <span>Hospital Rooms</span>
+        </div>
+
+        <div class="flex-col flex items-center">
+          <div
+            class="w-20 h-20 mt-5 text-white rounded-full bg-blue-500 flex items-center justify-center"
+          >
+            <i class="fa-solid fa-table"></i>
+          </div>
+          <span>3468</span>
+          <span>Hospital Rooms</span>
+        </div>
+      </div>
+
+      <!-- div end -->
+    </main>
+  </body>
+</html>

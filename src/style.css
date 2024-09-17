@@ -1,0 +1,19 @@
+.slide1 {
+  background-image: url(/img/slider.jpg);
+  background-size: cover;
+}
+/* .flx {
+  height: 200px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; 
+} */
+
+.div-card {
+  background-image: url(/img/blockqoute-bg.jpg);
+  background-size: cover;
+  /* background-color: rgb(49, 100, 176); */
+  opacity: 0.5;
+}
