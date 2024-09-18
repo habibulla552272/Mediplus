@@ -17,3 +17,7 @@
   /* background-color: rgb(49, 100, 176); */
   opacity: 0.5;
 }
+.choos-us-video {
+  background-image: url(/img/video-bg.jpg);
+  background-size: cover;
+}
