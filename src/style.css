@@ -21,3 +21,16 @@
   background-image: url(/img/video-bg.jpg);
   background-size: cover;
 }
+
+.Emergency {
+  background-image: url(/img/call-bg.jpg);
+  background-size: cover;
+  height: 410px;
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  .Emergency {
+    height: 425px;
+    background-color: rgba(44, 97, 177, 0.737);
+  }
+}
