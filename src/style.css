@@ -10,7 +10,10 @@
   align-items: center;
   /* text-align: center; 
 } */
-
+* {
+  padding: 0px;
+  margin: 0px;
+}
 .div-card {
   background-image: url(/img/blockqoute-bg.jpg);
   background-size: cover;
